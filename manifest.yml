@@ -1,0 +1,6 @@
+---
+applications:
+- name: cf-buildpack-rust-actix-test
+  memory: 4096M
+  buildpacks:
+  - https://github.com/lighthouse-no/cf-buildpack-rust

@@ -2,7 +2,7 @@
 name = "cf-buildpack-rust-actix-test"
 version = "0.1.0"
 authors = ["Chris Whealy <chris@lighthouse.no>"]
-edition = "2021"
+edition = "2018"
 
 [dependencies]
 actix-web = "4.3.1"
