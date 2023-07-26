@@ -2,6 +2,6 @@
 applications:
 - name: cf-buildpack-rust-actix-test
   memory: 4096M
-  health-check-type: http
+  health-check-type: port
   buildpacks:
   - https://github.com/lighthouse-no/cf-buildpack-rust
